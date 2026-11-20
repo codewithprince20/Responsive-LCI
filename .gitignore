@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build/Output folders
+dist/
+build/
+out/
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Local development
+*.local
+
+# Large media (if not needed in repo - uncomment if you want to exclude)
+# Images/*.jpg
+# Images/*.png
+# Images/*.jpeg
+# Images/*.gif
+# Images/*.webp

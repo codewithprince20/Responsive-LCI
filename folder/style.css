@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 18px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ================= Navbar ================= */
+
+.navbar {
+    background-color: #000000;
+    min-height: 64px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    margin-right: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 160px;
+    height: auto;
+}
+
+#navbarNav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 13px;
+    padding: 0.5rem 0.75rem;
+    display: block;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+ul li:hover .nav-link {
+    color: black;
+    background-color: white;
+}
+
+/* ==================================================== */
+/*                    MEDIA QUERIES                     */
+/* ==================================================== */
+
+/* ---------- Tablets / small laptops ---------- */
+@media (max-width: 992px) {
+    .navbar-brand {
+        margin-left: 16px;
+        margin-right: auto;
+    }
+
+    #navbarNav {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 8px;
+    }
+
+    #navbarNav .navbar-nav {
+        gap: 2px;
+    }
+
+    #navbarNav .nav-link {
+        padding: 0.5rem 0;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+}
+
+/* ---------- Mobiles ---------- */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar-brand img {
+        width: 145px;
+    }
+}
